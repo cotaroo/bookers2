@@ -11,4 +11,9 @@ class UsersController < ApplicationController
     @book = Book.new
     @books = Book.where(user_id: @user.id)
   end
+  
+  def edit
+     @user = User.find(params[:id])
+  end
+  
 end
