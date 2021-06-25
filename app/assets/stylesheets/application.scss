@@ -18,5 +18,14 @@
 @import 'font-awesome';
 
 #error_explanation {
-    color: red;
+  color: red;
+}
+
+#notice {
+  color: green;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
